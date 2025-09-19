@@ -1,19 +1,19 @@
-import FormattedText from "./components/FormattedText";
-import Button from "./components/Button";
+import StyledText from "./components/StyledText";
+import AlertButton from "./components/AlertButton";
 import "./App.css";
 
 function App() {
   return (
     <>
       <h1>Desafio 1</h1>
-      <FormattedText text="Hello World" textColor="cyan" />
-      <FormattedText text="Outro texto" textColor="#FFD700" />
+      <StyledText text="Hello World" textColor="cyan" />
+      <StyledText text="Outro texto" textColor="#FFD700" />
 
       <hr />
-      
+
       <h1>Desafio 2</h1>
-      <Button label="Baixar CV" />
-      <Button label="Ver Mais" />
+      <AlertButton label="Baixar CV" />
+      <AlertButton label="Ver Mais" />
     </>
   );
 }
